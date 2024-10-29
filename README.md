@@ -9,7 +9,7 @@ The project is written in Python and includes setup instructions.
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#run-the-Script)
+- [Usage](#usage)
 
 ## Project Overview
 
@@ -77,7 +77,7 @@ Create a .env file in the root directory to store your API key securely:
 To prevent accidental sharing of the .env file, add it to .gitignore:
 Create a .gitignore file and add .env
 
-
+## Usage
 5. **Run the Script**
 
 Instructions:
