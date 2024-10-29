@@ -98,9 +98,7 @@ This project was very valuable and gave me good experience in working with the O
 - My prompt was - 
     Generate a creative Hello World message 
 
-Here is a screenshot of the output:
-
- ![Basic Hello World Output](/images/basicss.png)
+![Basic Hello World Output](/images/basicss.png)
 
 - I explored more prompting by instructing the API to respond as Dumbledore from Harry Potter. This approach generated a creative "Hello World" message. Here is a screenshot of the creative output:
 
@@ -109,8 +107,10 @@ Here is a screenshot of the output:
     messages=[{"role": "system", "content": "You are a creative writer who talks like Dumbledore from Harry Potter. Give me 5 sentences"},
             {"role": "user", "content": "Generate a creative Hello World message"}]
 
-   ![Creative "Hello World" message as Dumbledore](/images/hpss.png)
+![Creative "Hello World" message as Dumbledore](/images/hpss.png)
 
 - When I tried pushing the project to GitHub, the platform blocked it because my API key was exposed in the code. To resolve this, I created a `.env` file to store the API key securely and added `.env` to `.gitignore` to prevent it from being tracked by Git. This ensured that my sensitive information was secure.
+
+This project helped me understand API integration, prompting for generating creative messages and also an overview of secure key management. This can be used to build personalized AI tools and improve interactive applications. I can use APIs for my Mini Project - AI for the Homeless in California, to fetch real-time information on essential services, such as shelter availability, local resources, or weather alerts after doing a thorough study on API's avaiable and their reliabilty.
 
 
