@@ -54,9 +54,11 @@ Instructions:
 
 3. **Install Dependencies**
 
-I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub.
+I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub. 
 
 Instructions:
+You can choose to install the modules mentioned in the import section or use the following command
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -112,5 +114,3 @@ This project was very valuable and gave me good experience in working with the O
 - When I tried pushing the project to GitHub, the platform blocked it because my API key was exposed in the code. To resolve this, I created a `.env` file to store the API key securely and added `.env` to `.gitignore` to prevent it from being tracked by Git. This ensured that my sensitive information was secure.
 
 This project helped me understand API integration, prompting for generating creative messages and also an overview of secure key management. This can be used to build personalized AI tools and improve interactive applications. I can use APIs for my Mini Project - AI for the Homeless in California, to fetch real-time information on essential services, such as shelter availability, local resources, or weather alerts after doing a thorough study on API's avaiable and their reliabilty.
-
-
