@@ -94,18 +94,22 @@ This project was very valuable and gave me good experience in working with the O
 
 - I began by reading the OpenAI documentation to understand the process of using the API. I created a new project and set up a virtual environment to keep my python version and dependencies isolated from other projects.
 
-- I generated a project based API keys on OpenAI Setting and saved my secret key. Initially, I used the API key directly in the code to generate a basic "Hello World" message. My prompt was - Generate a creative Hello World message 
+- I generated a project based API keys on OpenAI Setting and saved my secret key. Initially, I used the API key directly in the code to generate a basic "Hello World" message. 
+- My prompt was - 
+    Generate a creative Hello World message 
 
 Here is a screenshot of the output:
 
-  *Screenshot of basic "Hello World" output*
+ ![Basic Hello World Output](/images/basicss.png)
 
 - I explored more prompting by instructing the API to respond as Dumbledore from Harry Potter. This approach generated a creative "Hello World" message. Here is a screenshot of the creative output:
-My prompt was - 
-messages=[{"role": "system", "content": "You are a creative writer who talks like Dumbledore from Harry Potter. Give me 5 sentences"},
-        {"role": "user", "content": "Generate a creative Hello World message"}]
 
-  *Screenshot of creative "Hello World" message as Dumbledore*
+- My prompt was - 
+
+    messages=[{"role": "system", "content": "You are a creative writer who talks like Dumbledore from Harry Potter. Give me 5 sentences"},
+            {"role": "user", "content": "Generate a creative Hello World message"}]
+
+   ![Creative "Hello World" message as Dumbledore](/images/hpss.png)
 
 - When I tried pushing the project to GitHub, the platform blocked it because my API key was exposed in the code. To resolve this, I created a `.env` file to store the API key securely and added `.env` to `.gitignore` to prevent it from being tracked by Git. This ensured that my sensitive information was secure.
 
