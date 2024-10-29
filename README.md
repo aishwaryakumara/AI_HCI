@@ -32,8 +32,51 @@ This project is an application that uses APIs to generate a creative Hello World
 
 ### Installation Steps
 
+1. **(Optional) Create a Virtual Environment**
+
+I created a virtual environment to maintain versions and particular requiremnts separate from other projects
+
+   Run the following commands in your terminal to create a virtual environment:
+
+   ```bash
+   python -m venv env_hciai
+   source env_hciai/bin/activate  # On macOS/Linux
+   env_hciai\Scripts\activate     # On Windows
+
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/aishwaryakumara/AI_HCI.git
+
+1. **Install Dependencies**
+
+I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub.
+
+   ```bash
+   pip install -r requirements.txt
+
+
+1. **(Optional) Set Up .env File**
+You can choose to setup a .env file to maintain your API keys and load into into the python environment. Alternatively, you can also directly use the API key in the code
+
+Create a .env file in the root directory to store your API key securely:
+   ```bash
+        OPENAI_API_KEY="your_api_key_here"
+
+To prevent accidental sharing of the .env file, add it to .gitignore:
+Create a .gitignore file and add .env
+
+
+1. **Clone the Repository**
+
+   ```bash
+
+1. **Clone the Repository**
+
+   ```bash
+
+
+1. **Clone the Repository**
+
+   ```bash
+
