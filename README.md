@@ -42,35 +42,40 @@ I created a virtual environment to maintain versions and particular requiremnts 
    python -m venv env_hciai
    source env_hciai/bin/activate  # On macOS/Linux
    env_hciai\Scripts\activate     # On Windows
+   ```
 
-1. **Clone the Repository**
+2. **Clone the Repository**
 
    ```bash
    git clone https://github.com/aishwaryakumara/AI_HCI.git
+   ```
 
-2. **Install Dependencies**
+3. **Install Dependencies**
 
 I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub.
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 
-3. **(Optional) Set Up .env File**
+4. **(Optional) Set Up .env File**
 You can choose to setup a .env file to maintain your API keys and load into into the python environment. Alternatively, you can also directly use the API key in the code
 
 Create a .env file in the root directory to store your API key securely:
    ```bash
         OPENAI_API_KEY="your_api_key_here"
+```
 
 To prevent accidental sharing of the .env file, add it to .gitignore:
 Create a .gitignore file and add .env
 
 
-4. **Run the Script**
+5. **Run the Script**
 Excute using run button on IDE or run following command
    ```bash
    python miniproject.py
+   ```
 
 
 5. **Output**
