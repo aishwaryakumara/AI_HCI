@@ -9,8 +9,7 @@ The project is written in Python and includes setup instructions.
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
+- [Usage](#run-the-Script)
 
 ## Project Overview
 
