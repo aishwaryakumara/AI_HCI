@@ -36,6 +36,7 @@ This project is an application that uses APIs to generate a creative Hello World
 
 I created a virtual environment to maintain versions and particular requiremnts separate from other projects
 
+Instructions:
    Run the following commands in your terminal to create a virtual environment:
 
    ```bash
@@ -46,6 +47,7 @@ I created a virtual environment to maintain versions and particular requiremnts 
 
 2. **Clone the Repository**
 
+Instructions:
    ```bash
    git clone https://github.com/aishwaryakumara/AI_HCI.git
    ```
@@ -54,17 +56,21 @@ I created a virtual environment to maintain versions and particular requiremnts 
 
 I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub.
 
+Instructions:
    ```bash
    pip install -r requirements.txt
    ```
 
 
 4. **(Optional) Set Up .env File**
+I have set a .env file to store my API Key Securely. I have included this env file in .gitignore so that it does not get added to Github when I push my code.
+
+Instructions:
 You can choose to setup a .env file to maintain your API keys and load into into the python environment. Alternatively, you can also directly use the API key in the code
 
 Create a .env file in the root directory to store your API key securely:
    ```bash
-        OPENAI_API_KEY="your_api_key_here"
+    OPENAI_API_KEY="your_api_key_here"
 ```
 
 To prevent accidental sharing of the .env file, add it to .gitignore:
@@ -72,11 +78,35 @@ Create a .gitignore file and add .env
 
 
 5. **Run the Script**
+
+Instructions:
 Excute using run button on IDE or run following command
    ```bash
    python miniproject.py
    ```
 
-
 5. **Output**
 The script will output a creative "Hello World" message in the console.
+
+## Reflection
+
+This project was very valuable and gave me good experience in working with the OpenAI API. The following are the steps I followed while creating this application and my learning points:
+
+- I began by reading the OpenAI documentation to understand the process of using the API. I created a new project and set up a virtual environment to keep my python version and dependencies isolated from other projects.
+
+- I generated a project based API keys on OpenAI Setting and saved my secret key. Initially, I used the API key directly in the code to generate a basic "Hello World" message. My prompt was - Generate a creative Hello World message 
+
+Here is a screenshot of the output:
+
+  *Screenshot of basic "Hello World" output*
+
+- I explored more prompting by instructing the API to respond as Dumbledore from Harry Potter. This approach generated a creative "Hello World" message. Here is a screenshot of the creative output:
+My prompt was - 
+messages=[{"role": "system", "content": "You are a creative writer who talks like Dumbledore from Harry Potter. Give me 5 sentences"},
+        {"role": "user", "content": "Generate a creative Hello World message"}]
+
+  *Screenshot of creative "Hello World" message as Dumbledore*
+
+- When I tried pushing the project to GitHub, the platform blocked it because my API key was exposed in the code. To resolve this, I created a `.env` file to store the API key securely and added `.env` to `.gitignore` to prevent it from being tracked by Git. This ensured that my sensitive information was secure.
+
+
