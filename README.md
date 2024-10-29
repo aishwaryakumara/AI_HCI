@@ -48,7 +48,7 @@ I created a virtual environment to maintain versions and particular requiremnts 
    ```bash
    git clone https://github.com/aishwaryakumara/AI_HCI.git
 
-1. **Install Dependencies**
+2. **Install Dependencies**
 
 I have used a few packages like load_dotenv and os to loads environment variables from a .env file into Python’s environment. This is to keep sensitive information from being pushed to GitHub.
 
@@ -56,7 +56,7 @@ I have used a few packages like load_dotenv and os to loads environment variable
    pip install -r requirements.txt
 
 
-1. **(Optional) Set Up .env File**
+3. **(Optional) Set Up .env File**
 You can choose to setup a .env file to maintain your API keys and load into into the python environment. Alternatively, you can also directly use the API key in the code
 
 Create a .env file in the root directory to store your API key securely:
@@ -67,16 +67,11 @@ To prevent accidental sharing of the .env file, add it to .gitignore:
 Create a .gitignore file and add .env
 
 
-1. **Clone the Repository**
-
+4. **Run the Script**
+Excute using run button on IDE or run following command
    ```bash
-
-1. **Clone the Repository**
-
-   ```bash
+   python miniproject.py
 
 
-1. **Clone the Repository**
-
-   ```bash
-
+5. **Output**
+The script will output a creative "Hello World" message in the console.
